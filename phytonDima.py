@@ -1,5 +1,6 @@
-name= "dima"
-print(name)
-1111111111112
-222222222222222
-45455
+import random
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+random.shuffle(list)
+print(list)
+list.pop()
+print(list)
