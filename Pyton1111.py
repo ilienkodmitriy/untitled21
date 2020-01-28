@@ -10,7 +10,6 @@ if a<b:
     print("bad")
 if a==b:
     print(str(c) + str("Теперь эта!"))
-    print(c + (a + b))
     if (a+b)<c:
         print("very good")
     if (a+b)>c:
