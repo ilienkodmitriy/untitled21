@@ -4,7 +4,7 @@ def func(a,b,c,d):
     list2 = [random.randint(0, d) for i in range(c)]
     print(list1, list2)
     list3 = list(set(list1) & set(list2))
+    print(list3)
     if list3 == []:
         print("совпадений нет")
-    print(list3)
-func(19,27,4,30)
+func(19,27,5,30)
