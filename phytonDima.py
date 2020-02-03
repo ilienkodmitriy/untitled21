@@ -1,6 +1,5 @@
 import random
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-random.shuffle(list)
-print(list)
-list.pop()
-print(list)
+List= [random.randint(1,10)for i in range(10)]
+print(List)
+List.pop()
+print(List)
