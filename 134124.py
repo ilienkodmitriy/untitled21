@@ -1,8 +1,7 @@
 def function1(x, y):
     import random
-    list1 = [random.randint(0, y) for i in range(y)]
+    list1 = [random.randint(0, y) for i in range(x)]
     return list1
-
 
 a = (int(input("Длина списка: ")))
 b = (int(input("Максимальное значение элементов списка: ")))
