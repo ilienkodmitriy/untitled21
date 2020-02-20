@@ -25,7 +25,7 @@ cur.execute("""CREATE TABLE teachers
 # table 3
 cur.execute("""CREATE TABLE payment
             (id INTEGER PRIMARY KEY,
-            payment INTEGER,
+            payment_sum INTEGER,
             Bank TEXT)
             """)
 

@@ -11,8 +11,8 @@ cur.execute("""CREATE TABLE students
              sex CHAR(1),
              birth_date DATE,
              age INTEGER,
-             FOREIGN KEY (teachers_id) REFERENCES teachers (id),
-             FOREIGN KEY (pay_id) REFERENCES payment (id))
+             FOREIGN KEY (name) REFERENCES teachers (phone_number),
+             FOREIGN KEY (birth_date) REFERENCES payment (payment))
              """)
 
 # table 2
